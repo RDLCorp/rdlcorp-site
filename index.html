@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RDL Corp</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+
+    header {
+      background-color: #071a4e;
+      color: white;
+      padding: 2rem;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    header img {
+      max-width: 150px;
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    nav {
+      background-color: #1e40af;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #1d4ed8;
+      border-bottom: 2px solid #93c5fd;
+      padding-bottom: 0.5rem;
+    }
+
+    form {
+      margin-top: 1rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.375rem;
+    }
+
+    button {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.375rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2563eb;
+    }
+
+    footer {
+      background-color: #f3f4f6;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo_RDL_Corp.png" alt="Logo RDL Corp">
+    <div>
+      <h1>RDL Corp</h1>
+      <p>Conectando oportunidades com eficiência</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre" class="container">
+    <h2>Sobre Nós</h2>
+    <p>A RDL Corp é uma empresa formada por profissionais com ampla experiência em comércio e licitações públicas. Com foco em soluções estratégicas, atendemos empresas que desejam atuar no setor público de forma eficiente e competitiva.</p>
+  </section>
+
+  <section id="servicos" class="container">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Representação em processos licitatórios</li>
+      <li>Consultoria para vendas ao governo</li>
+      <li>Fornecimento de produtos e soluções comerciais</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+    <p>Rua Hermes Curry Carneiro, 534, Sala 01, Monte Belo, Vitória/ES. CEP 29053-202</p>
+    <p>Telefone: (27) 98833-7090</p>
+    <p>E-mail: <a href="mailto:rdlcorp@rncomercial.com.br">rdlcorp@rncomercial.com.br</a></p>
+    <form action="https://formsubmit.co/rdlcorp@rncomercial.com.br" method="POST">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" required><br>
+
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="telefone">Telefone:</label><br>
+      <input type="tel" id="telefone" name="telefone" required><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" required></textarea><br>
+
+      <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem! Em breve entraremos em contato.">
+      <input type="hidden" name="_template" value="table">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 RDL Corp. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
